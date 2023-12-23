@@ -1,26 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import MainNavbar from "./Component/MainNavbar";
+import Footer from "./Component/Footer";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-           git config --global user.email "pranavshelke4@gmail.com"
-  git config --global user.name "Pranav"
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MainNavbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
