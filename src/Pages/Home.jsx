@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import CustomersLove from "../Component/Home/CustomersLove";
 
 function Home() {
   return (
-    <div>Hii </div>
-  )
+    <>
+      <CustomersLove />
+    </>
+  );
 }
 
-export default Home
+export default Home;
