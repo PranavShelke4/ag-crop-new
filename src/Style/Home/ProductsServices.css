@@ -1,5 +1,5 @@
 .products-services {
-  padding: 7% 0% 0 7%;
+  padding: 5% 0% 0% 0%;
   margin-bottom: 5%;
 }
 
@@ -36,6 +36,10 @@
   align-items: left;
   justify-content: center;
   margin-bottom: -5%;
+}
+
+.products-services-box2-img {
+  width: 100%;
 }
 
 .products-services-box1-title {

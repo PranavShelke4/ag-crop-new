@@ -70,7 +70,11 @@ function ProductsServices() {
       {/* ELECTRICAL CONTROL PANELS */}
       <div className="products-services-boxs">
         <div className="products-services-box2">
-          <img alt="img" src={ELECTRICAL_CONTROL_PANELS} />
+          <img
+            className="products-services-box2-img"
+            alt="img"
+            src={ELECTRICAL_CONTROL_PANELS}
+          />
         </div>
 
         <div className="products-services-box1">
@@ -175,7 +179,11 @@ function ProductsServices() {
       {/* ELECTRICAL SERVICES */}
       <div className="products-services-boxs">
         <div className="products-services-box2">
-          <img alt="img" src={ELECTRICAL_SERVICES} />
+          <img
+            className="products-services-box2-img"
+            alt="img"
+            src={ELECTRICAL_SERVICES}
+          />
         </div>
 
         <div className="products-services-box1">
