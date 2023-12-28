@@ -40,3 +40,24 @@
   padding-left: 7%;
   font-size: 1.2rem;
 }
+
+
+@media screen and (max-width: 768px) {
+  .OurClients {
+    flex-direction: column;
+  }
+
+  .OurClientsBox1,
+  .OurClientsBox2 {
+    width: 100%;
+  }
+
+  .OurClientsBox2 img {
+    width: 4rem;
+  }
+
+  .OurClientsBox1Title h1 {
+    width: 100%;
+  }
+  
+}

@@ -21,3 +21,12 @@
   font-weight: 700;
   margin-bottom: 5%;
 }
+
+@media screen and (max-width: 768px) {
+  .customers-love h1 {
+    font-size: 2rem;
+  }
+  .customers-love h4 {
+    font-size: 1.2rem;
+  }
+}
