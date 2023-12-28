@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "../Component/Services/Electrical Control Panel/Header";
 
 function ElectricalControlPanel() {
-  return <div>Hii </div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default ElectricalControlPanel;
