@@ -1,0 +1,57 @@
+.ECPheader {
+    height: 70vh;
+    background-image: url("../../Assets/Services/Electrical_Control_Panel.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 3%;
+    color: white;
+}
+
+.header-title {
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.header-button{
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    border: solid 2px white;
+    border-radius: 5px;
+    background-color: transparent ;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 5%;
+}
+
+.header-button:hover{
+    background-color: white;
+}
+
+.know_more_btn {
+    color: white;
+    text-decoration: none;
+}
+
+.header-button:hover .know_more_btn{
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .ECPheader {
+        height: 50vh;
+    }
+    .ECPheader h1 {
+        font-size: 3rem;
+    }
+    .ECPheader button{
+        font-size: 1rem;
+    }
+    
+}
