@@ -1,7 +1,8 @@
 import React from "react";
+import Header from "../Component/Services/Electrical Services/Header";
 
 function ElectricalServices() {
-  return <div>Hii </div>;
+  return <div><Header /> </div>;
 }
 
 export default ElectricalServices;

@@ -13,6 +13,52 @@
     color: white;
 }
 
+.ASSheader {
+    height: 70vh;
+    background-image: url("../../Assets/Services/after_sale.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 3%;
+    color: white;
+}
+
+.ESheader {
+    height: 70vh;
+    background-image: url("../../Assets/Services/ELECTRICAL_SERVICES_header.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 3%;
+    color: white;
+}
+
+.FFSheader {
+    height: 70vh;
+    background-image: url("../../Assets/Services/Fire_Fighting_System.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 3%;
+    color: white;
+}
+
+
 .header-title {
     font-size: 4.5rem;
     font-weight: 600;
@@ -44,13 +90,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .ECPheader {
+    .ECPheader, .ASSheader, .ESheader, .FFSheader {
         height: 50vh;
     }
-    .ECPheader h1 {
+    .header-title {
         font-size: 3rem;
     }
-    .ECPheader button{
+    .header-button{
         font-size: 1rem;
     }
     
