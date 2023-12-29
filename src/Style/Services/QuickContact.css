@@ -1,0 +1,52 @@
+.QuickContact{
+    padding: 3% 7%;
+    text-align: center;
+}
+
+.QuickContact-btn {
+    background-color: white;
+    border: solid black 1px;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 1%;
+  }
+  
+  .QuickContact-btn:hover {
+    background-color: black;
+  }
+  
+  .QuickContact-btn:hover .QuickContact-btn-link {
+    color: white;
+  }
+  
+  .QuickContact-btn-2 {
+    background-color: white;
+    border: solid black 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0.6% 1%;
+    max-width: 3.5rem;  
+    margin-top: -3.95%;
+    margin-left: 54%;
+  }
+  
+  .QuickContact-btn-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  @media screen and (max-width: 768px) {
+    .QuickContact-btn {
+        padding: 2% 5%;
+        border: solid black 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    }
+
+    .QuickContact-btn-2 {
+       display: none;
+    }
+
+
+  }
