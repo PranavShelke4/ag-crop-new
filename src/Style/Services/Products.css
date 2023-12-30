@@ -1,0 +1,84 @@
+.products {
+    padding: 3%;
+    text-align: center;
+  }
+  
+  .products h2 {
+    font-weight: 620;
+    color: rgba(38, 50, 56, 1);
+  }
+  
+  .products span {
+    color: rgba(0, 156, 130, 1);
+  }
+  
+  .products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5rem;
+    row-gap: 1.5rem;
+    padding-top: 3%;
+  }
+  
+  .product-card {
+    background-color: rgba(245, 247, 250, 1);
+    border-radius: 16px;
+    padding-top: 5%;
+    text-align: center;
+    height: 21rem;
+    position: relative;
+  }
+
+  .product-card h6{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(38, 50, 56, 1);
+    padding: 3% 10%;
+  }
+  
+  .product-button {
+    background-color: #282626;
+    border: 1px solid #282626;
+    padding: 3%;
+    width: 100%;
+    color: white;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .product-button:hover{
+    background-color: white;
+    border: 1px solid #282626;
+    color: #282626;
+  }
+
+  .product-button:hover .product-btn-link{
+    color: #282626;
+  }
+
+  .product-btn-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .diesel,
+  .electrical,
+  .jockey {
+    position: relative;
+    top: 2rem;
+  }
+  
+  .multi {
+    position: relative;
+    top: 3.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .products-list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+      
+  }

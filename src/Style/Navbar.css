@@ -3,6 +3,7 @@
     rgba(171, 190, 209, 0.4);
   padding: 1% 4% !important;
   background-color: white;
+  z-index: 100;
 }
 
 .nav-right-side {
