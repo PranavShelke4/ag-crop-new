@@ -56,8 +56,8 @@ function Products() {
       <div className="products-list">
         {products.map((product, index) => (
           <div key={index} className="product-card">
+            <img id="product-img" className={product.class} alt="img" src={product.img} />
             <h6>{product.Productname}</h6>
-            <img className={product.class} alt="img" src={product.img} />
             <button className="product-button">
               <NavLink className="product-btn-link" to={"/contact-us"}>
                 Know More
