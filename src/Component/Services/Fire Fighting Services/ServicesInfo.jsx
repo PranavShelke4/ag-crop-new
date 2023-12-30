@@ -4,7 +4,7 @@ import "../../../Style/Services/ServicesInfo.css";
 
 function ServicesInfo() {
   return (
-    <div className="ServicesInfo">
+    <div className="ServicesInfo"  id="services-info">
       <div className="ServicesInfo-box1">
         <h3>Fire Fighting System</h3>
         <p>

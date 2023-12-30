@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../Style/Services/Header.css";
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
   return (
@@ -9,7 +9,7 @@ function Header() {
         WE WORK THE WAY THAT <br /> WORKS FOR <br /> #your INDUSTRY
       </h1>
       <button className="header-button">
-        <Link className="know_more_btn">Know More</Link>
+        <HashLink to={"#wide-range"} className="know_more_btn">Know More</HashLink>
       </button>
     </div>
   );

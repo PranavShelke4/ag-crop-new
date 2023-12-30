@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: start;
   padding: 3% 7%;
-  background-color: rgba(38, 50, 56, 1);
+  background: linear-gradient(30deg, rgba(178,194,234,1) 0%, rgba(51,106,228,1) 29%);
   color: white;
   gap: 10%;
 }

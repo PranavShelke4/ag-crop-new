@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../Style/Services/Header.css";
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
   return (
@@ -9,7 +9,7 @@ function Header() {
       PERCEPTION ENABLED <br /> TECHNOLOGY
       </h1>
       <button className="header-button">
-        <Link className="know_more_btn">Know More</Link>
+        <HashLink to={"#ServicesInfo-boxs"}  className="know_more_btn">Know More</HashLink>
       </button>
     </div>
   );

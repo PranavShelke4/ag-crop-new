@@ -5,7 +5,7 @@ import ELECTRICAL_CONTROL_PANELS from "../../../Assets/ELECTRICAL_CONTROL_PANELS
 
 function ServicesInfo() {
   return (
-    <div className="ServicesInfo">
+    <div className="ServicesInfo" id="services-info">
       <div className="ServicesInfo-box1">
         <h3>
           Electrical Control Panel <br /> Manufacturing

@@ -3,7 +3,7 @@ import "../../../Style/Services/WideRange.css";
 
 function WideRange() {
   return (
-    <div className="WideRange">
+    <div className="WideRange" id="wide-range">
       <h2>
       Electrical Contracting Services
       </h2>
