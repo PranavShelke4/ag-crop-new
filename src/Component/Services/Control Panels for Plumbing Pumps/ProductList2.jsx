@@ -24,7 +24,7 @@ function ProductList2() {
     
       return (
         <div className="CPP-Products">
-          <div className="products-list">
+          <div className="CPP-products-list">
             {products.map((product, index) => (
               <div key={index} className="CPP-product-card">
                 <img className="CPP-product-img" alt="img" src={product.img} />

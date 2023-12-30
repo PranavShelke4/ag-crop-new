@@ -20,6 +20,7 @@
     padding-top: 3%;
     padding: 0 10%;
   }
+
   
   .product-card {
     min-height: 25rem;
@@ -94,9 +95,18 @@
   /* Control Panels for Plumbing Pumps Css */
 
   .CPP-Products{
-    padding-left: 15%;
+    padding-left: 10%;
     text-align: center;
     margin-bottom: 5%;
+  }
+
+  .CPP-products-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5rem;
+    row-gap: 1.5rem;
+    padding-top: 3%;
+    padding: 0 10%;
   }
 
   .CPP-product-img{ 
