@@ -20,7 +20,7 @@
 }
 
 .nav-links.active {
-  color: rgba(2, 116, 188, 1) !important;
+  color: #282626 !important;
 }
 
 .pumping-nav-dropdown {
@@ -44,7 +44,7 @@
 }
 
 .dropdown-item:hover {
-  background-color: rgba(2, 116, 188, 1) !important;
+  background-color: #282626 !important;
   color: white !important;
 }
 

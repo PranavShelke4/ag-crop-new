@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../../../Style/Services/ServicesInfo.css";
-import ELECTRICAL_CONTROL_PANELS from "../../../Assets/ELECTRICAL_CONTROL_PANELS.webp";
 
 function ServicesInfo() {
   return (

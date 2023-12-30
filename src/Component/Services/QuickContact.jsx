@@ -11,7 +11,7 @@ function QuickContact() {
       <div className="QuickContact-btn-box">
         <button className="QuickContact-btn">
           <NavLink className="QuickContact-btn-link" to={"/contact-us"}>
-            Read More
+            ENQUIRE NOW
           </NavLink>
         </button>
         <div className="QuickContact-btn-2">
@@ -34,7 +34,6 @@ function QuickContact() {
           </svg>
         </div>
       </div>
-
     </div>
   );
 }
