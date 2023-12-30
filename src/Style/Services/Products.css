@@ -27,6 +27,9 @@
     text-align: center;
     height: 21rem;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .product-card h6{
@@ -79,6 +82,34 @@
   @media screen and (max-width: 768px) {
     .products-list {
       grid-template-columns: repeat(1, 1fr);
+    }
+      
+  }
+
+
+
+  /* Control Panels for Plumbing Pumps Css */
+
+  .CPP-Products{
+    padding-left: 15%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .CPP-product-img{ 
+    height: 10rem;
+  }
+
+  .CPP-product-card h6{
+    font-size: 1.2rem;
+    font-weight: 650;
+    color: rgba(38, 50, 56, 1);
+    padding: 3% 10%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .CPP-Products {
+      padding-left: 0%;
     }
       
   }
