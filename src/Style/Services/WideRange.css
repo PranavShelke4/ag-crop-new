@@ -8,7 +8,7 @@
 
 .WideRange-boxs {
     display: flex;
-    gap: 20%;
+    gap: 2rem; /* Adjust as needed */
 }
 
 .WideRange-box-1, .WideRange-box-2 {
@@ -27,6 +27,18 @@
     width: 23rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .WideRange-boxs {
+        gap: 1.5rem; /* Adjust as needed */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .WideRange-boxs {
+        gap: 1rem; /* Adjust as needed */
+    }
+}
+
 @media screen and (max-width: 768px) {
     .WideRange-boxs {
         flex-direction: column;
@@ -35,5 +47,4 @@
     .WideRange-box-1, .WideRange-box-2 {
         width: 100%;
     }
-    
 }
