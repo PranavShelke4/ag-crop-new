@@ -7,8 +7,16 @@
     gap: 5%;
 }
 
-.ServicesInfo-box1, .ServicesInfo-box2{
+.ServicesInfo-box1{
     width: 50%;
+}
+
+.ServicesInfo-box2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #ServicesInfo-boxs{
@@ -32,7 +40,7 @@
 #ServicesInfo-box2-img{
     width: 20rem;
     height: 100%;
-    margin-left: 15%;
+    /* margin-left: 15%; */
 }
 
 @media screen and (max-width: 768px) {
