@@ -118,11 +118,16 @@
     font-weight: 650;
     color: rgba(38, 50, 56, 1);
     padding: 3% 10%;
+    margin-top: 3%;
   }
 
   @media screen and (max-width: 768px) {
     .CPP-Products {
       padding-left: 0%;
+    }
+
+    .CPP-products-list {
+      grid-template-columns: auto;
     }
       
   }
