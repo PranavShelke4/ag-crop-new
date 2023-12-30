@@ -132,7 +132,7 @@ function ProductsServices() {
           </span>
           {/* <h5> Water management | HYPN system | Fire fighting system</h5> */}
           <p className="products-services-box1-p">
-            We provide high-quality end-to-end firefighting solutions. We are
+            We provide <span>high-quality end-to-end firefighting solutions.</span> We are
             the Licensed fire fighting contractor of the Maharashtra fire
             authority. When it comes to fire safety, there must be a high
             quality and assured end-to-end fire fighting solution & that's the
