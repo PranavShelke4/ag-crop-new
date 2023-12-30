@@ -3,9 +3,10 @@
   flex-direction: row;
   justify-content: start;
   padding: 3% 7%;
-  background: linear-gradient(30deg, rgba(178,194,234,1) 0%, rgba(51,106,228,1) 29%);
-  color: white;
+  background: linear-gradient(30deg, rgba(178,194,234,1) 0%, rgba(51,106,228,1) 100%);
+  color: black !important;
   gap: 10%;
+  font-size: 1.1rem;
 }
 
 .footer-link {
@@ -20,7 +21,14 @@
 
 .footer-div-1 h1 {
   text-decoration: underline;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.3rem;
+}
+
+.footer-div-1 p {
+  padding: 0 11%;
+  margin-bottom: 1rem;
 }
 
 .footer-div-2 {
