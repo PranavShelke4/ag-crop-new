@@ -22,7 +22,7 @@
 .ServicesInfo-box2 li {
     font-size: 1.2rem;
     font-weight: 400;
-    margin: 5% 0;
+    margin: 1% 0;
     text-align: justify;
     line-height: 2; 
 }
@@ -35,9 +35,9 @@
 .ServicesInfo-box1 p {
     font-size: 1.2rem;
     font-weight: 400;
-    margin: 5% 0;
+    margin: 3% 0;
     text-align: justify;
-    line-height: 2; 
+    line-height: 1.5; 
 }
 
 .ServicesInfo-box2-img{

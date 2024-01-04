@@ -71,15 +71,6 @@ function Header() {
         <img className="carousel-img" src={slides[index].img} alt="img" />
       </div>
 
-      <div className="carousel-dots">
-        {slides.map((slide, i) => (
-          <span
-            key={i}
-            className={`carousel-dot ${i === index ? "active" : ""}`}
-            onClick={() => selectSlide(i)}
-          ></span>
-        ))}
-      </div>
     </div>
   );
 }
