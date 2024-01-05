@@ -89,7 +89,6 @@
 
 }
 
-
 .header-title {
     font-size: 4.5rem;
     font-weight: 600;
@@ -99,6 +98,11 @@
 
 .header-title span {
     color: rgba(0, 156, 130, 1);
+}
+
+.willo-header-button{
+    display: flex;
+    gap: 2rem;
 }
 
 .header-button{
