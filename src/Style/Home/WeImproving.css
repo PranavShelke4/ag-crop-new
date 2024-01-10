@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
 .WeImproving {
   padding: 5% 7%;
   background-color: #f1d2cf;
@@ -31,7 +33,12 @@
 }
 
 .WeImprovingBox1SubBox span {
-  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.663rem;
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: 1.1rem;
 }
 
 .WeImprovingBox1SubBox2 {
@@ -39,11 +46,28 @@
   padding: 0% 7%;
 }
 
+.WeImprovingBox1SubBox2 p{
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.3px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: auto;
+}
+
 .WeImprovingBox1SubBox2SubBox {
   border-left: 3px solid rgb(255, 255, 255);
   margin-left: -8.5%;
   padding-left: 7%;
 }
+
+.WeImprovingBox1SubBox2SubBox h2{
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.3px;
+  font-size: 1.663rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
 
 .WeImprovingBox2 img {
   width: 100%;

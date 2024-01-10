@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+
 .carousel {
     text-align: center;
     height: 90vh;
@@ -21,15 +24,21 @@
   }
   
   .carousel-title h1{
-    font-size: 4.5rem;
+    font-size: 4.438rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    letter-spacing: -0.02px;
+    line-height: 1.5;
   }
 
   .carousel-title h2{
-    font-size: 2.3rem;
+    font-size: 2.125rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -0.02px;
+    line-height: 1.5;
   }
   
   .carousel-hr{
