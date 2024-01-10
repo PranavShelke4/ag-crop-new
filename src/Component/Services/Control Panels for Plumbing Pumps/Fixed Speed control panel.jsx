@@ -6,9 +6,9 @@ function Fixed_Speed_control_panel() {
   return (
     <>
       <div className="ServicesInfo" id="ServicesInfo-boxs">
-        <div className="ServicesInfo-box1">
+        <div className="ServicesInfo-box1" id="ServicesInfo-box1">
           <h3>Fixed Speed control panel</h3>
-          <p>
+          <p className="ServicesInfo-box1-p">
             Introducing our specially engineered, Fixed Pump series for the
             fixed speed run pumping application, which can be used for both HYPN
             systems and Dewatering systems. If you need a fixed rate of flow at

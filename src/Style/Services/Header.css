@@ -1,144 +1,152 @@
 .ECPheader {
-    height: 70vh;
-    background-image: url("../../Assets/Services/Electrical_Control_Panel.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0% 3%;
-    color: white;
+  height: 70vh;
+  background-image: url("../../Assets/Services/Electrical_Control_Panel.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 3%;
+  color: white;
 }
 
 .ASSheader {
-    height: 70vh;
-    background-image: url("../../Assets/Services/after_sale.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0% 3%;
-    color: white;
+  height: 70vh;
+  background-image: url("../../Assets/Services/after_sale.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 3%;
+  color: white;
 }
 
 .ESheader {
-    height: 70vh;
-    background-image: url("../../Assets/Services/ELECTRICAL_SERVICES_header.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0% 3%;
-    color: white;
+  height: 70vh;
+  background-image: url("../../Assets/Services/ELECTRICAL_SERVICES_header.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 3%;
+  color: white;
 }
 
 .FFSheader {
-    height: 70vh;
-    background-image: url("../../Assets/Services/Fire_Fighting_System.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0% 3%;
-    color: white;
+  height: 70vh;
+  background-image: url("../../Assets/Services/Fire_Fighting_System.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 3%;
+  color: white;
 }
 
 .Willoheader {
-    height: 70vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../Assets/Services/wilo-header.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0% 3%;
-    color: white;
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/Services/wilo-header.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 3%;
+  color: white;
 }
 
-.CPPheader{
-    height: 70vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../Assets/Building_Construction.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0% 3%;
-    color: white;
-
+.CPPheader {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/Building_Construction.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 3%;
+  color: white;
 }
 
 .header-title {
-    font-size: 4.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    z-index: 100;
+  font-weight: 350;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-size: 4rem;
+  font-weight: 600 !important;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  z-index: 100;
 }
 
 .header-title span {
-    color: rgba(0, 156, 130, 1);
+  color: rgba(0, 156, 130, 1);
 }
 
-.willo-header-button{
-    display: flex;
-    gap: 2rem;
+.willo-header-button {
+  display: flex;
+  gap: 2rem;
 }
 
-.header-button{
-    font-size: 1.2rem;
-    padding: 0.5rem 1.5rem;
-    border: solid 2px white;
-    border-radius: 5px;
-    background-color: transparent ;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    margin-top: 5%;
-    z-index: 100;
+.header-button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  border: solid 2px white;
+  border-radius: 45px;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 3%;
+  z-index: 100;
 }
 
-.header-button:hover{
-    background-color: white;
+.header-button:hover {
+  background-color: white;
 }
 
 .know_more_btn {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-.header-button:hover .know_more_btn{
-    color: black;
+.header-button:hover .know_more_btn {
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
-    .ECPheader, .ASSheader, .ESheader, .FFSheader {
-        height: 50vh;
-    }
-    .header-title {
-        font-size: 3rem;
-    }
-    .header-button{
-        font-size: 1rem;
-    }
-    
+  .ECPheader,
+  .ASSheader,
+  .ESheader,
+  .FFSheader {
+    height: 50vh;
+  }
+  .header-title {
+    font-size: 3rem;
+  }
+  .header-button {
+    font-size: 1rem;
+  }
 }

@@ -7,7 +7,7 @@ function Variable_Speed_Control_Panel() {
     <div className="ServicesInfo" id="ServicesInfo-boxs">
       <div className="ServicesInfo-box1">
         <h3>Variable Speed Control Panel</h3>
-        <p>
+        <p className="ServicesInfo-box1-p-2">
           Introducing our specially designed variable pump set for delivering
           constant pressure at variable water flow requirements. The fully
           protective and safest system allows users to use water at varying flow
