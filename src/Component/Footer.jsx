@@ -36,8 +36,8 @@ function Footer() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-brand-linkedin"
-              width="35"
-              height="35"
+              width="28"
+              height="28"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="#000000"
@@ -57,8 +57,8 @@ function Footer() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-brand-facebook"
-              width="35"
-              height="35"
+              width="28"
+              height="28"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="#000000"
@@ -74,8 +74,9 @@ function Footer() {
         <p className="footer-para">No: - +91-9923208955 </p>
         <p className="footer-para">Email: sales@agcorporation.in</p>
         <p className="footer-para">
-          Sai Mangal Apartment, Sector no: 04, plot no. 206, Lane no:01 Spine
-          road, Moshi, Pune-412105, Maharashtra (India){" "}
+          Sai Mangal Apartment, Sector no: 04, plot no. <br /> 206, Lane no:01
+          Spine road, Moshi, Pune - <br />
+          412105, Maharashtra (India){" "}
         </p>
       </div>
     </div>
