@@ -52,7 +52,7 @@ function Products() {
 
   return (
     <div className="products" id="products">
-      <h2>CHOOSE FROM OUR WIDE RANGE OF WILO PRODUCTS</h2>
+      <h2>CHOOSE FROM OUR WIDE RANGE OF <br /> WILO PRODUCTS</h2>
       <div className="products-list">
         {products.map((product, index) => (
           <div key={index} className="product-card">

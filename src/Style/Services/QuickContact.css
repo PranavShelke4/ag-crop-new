@@ -1,40 +1,48 @@
-.QuickContact{
-    padding: 3% 7%;
-    text-align: center;
+.QuickContact {
+  padding: 3% 7%;
+  text-align: center;
+}
+
+.QuickContact h3 {
+  font-weight: 350;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8;
 }
 
 .QuickContact-btn {
-    background-color: white;
-    border: solid black 1px;
-    border-radius: 5px;
-    padding: 1%;
-  }
-  
-  .QuickContact-btn:hover {
-    background-color: black;
-  }
-  
-  .QuickContact-btn:hover .QuickContact-btn-link {
-    color: white;
-  }
-  
-  
-  .QuickContact-btn-link {
-    text-decoration: none;
-    color: black;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 0.7% 1%;
+}
 
-  @media screen and (max-width: 768px) {
-    .QuickContact-btn {
-        padding: 2% 5%;
-        border: solid black 1px;
+.QuickContact-btn:hover {
+  background-color: black;
+}
+
+.QuickContact-btn:hover .QuickContact-btn-link {
+  color: white;
+}
+
+.QuickContact-btn-link {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .QuickContact-btn {
+    padding: 2% 5%;
+    border: solid black 1px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    }
-
-    .QuickContact-btn-2 {
-       display: none;
-    }
-
-
   }
+
+  .QuickContact-btn-2 {
+    display: none;
+  }
+}

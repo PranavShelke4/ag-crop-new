@@ -4,7 +4,7 @@ import "../../../Style/Services/WideRange.css";
 function WideRange() {
   return (
     <div className="WideRange">
-      <h2>What Makes our HYPN system Control Panel different</h2>
+      <h2>What Makes our HYPN system <br /> Control Panel different</h2>
       <div className="WideRange-boxs">
         <div className="WideRange-box-1">
           <span>Over voltage, Under voltage protection</span>

@@ -1,54 +1,66 @@
 .WideRange {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3% 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3% 1%;
 }
 
 .WideRange h2 {
-    padding: 0 7%;
+  padding: 0 7%;
+  text-align: center;
+  font-weight: 350;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.8;
 }
 
 .WideRange-boxs {
-    display: flex;
-    gap: 2rem; /* Adjust as needed */
+  display: flex;
+  gap: 7rem; /* Adjust as needed */
 }
 
-.WideRange-box-1, .WideRange-box-2 {
-    width: 50%;
-    margin-top: 7%;
-    display: flex;
-    flex-direction: column;
+.WideRange-box-1,
+.WideRange-box-2 {
+  width: 50%;
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
 }
 
-.WideRange-box-1 span, .WideRange-box-2 span {
-    padding-left: 5%;
-    border-left: solid #1E5BE1 5px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 7% 0;
-    width: 23rem;
+.WideRange-box-1 span,
+.WideRange-box-2 span {
+  padding-left: 5%;
+  border-left: solid #1e5be1 5px;
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 7% 0;
+  width: 23rem;
 }
 
 @media screen and (max-width: 1200px) {
-    .WideRange-boxs {
-        gap: 1.5rem; /* Adjust as needed */
-    }
+  .WideRange-boxs {
+    gap: 1.5rem; /* Adjust as needed */
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .WideRange-boxs {
-        gap: 1rem; /* Adjust as needed */
-    }
+  .WideRange-boxs {
+    gap: 1rem; /* Adjust as needed */
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .WideRange-boxs {
-        flex-direction: column;
-        gap: 0;
-    }
-    .WideRange-box-1, .WideRange-box-2 {
-        width: 100%;
-    }
+  .WideRange-boxs {
+    flex-direction: column;
+    gap: 0;
+  }
+  .WideRange-box-1,
+  .WideRange-box-2 {
+    width: 100%;
+  }
 }

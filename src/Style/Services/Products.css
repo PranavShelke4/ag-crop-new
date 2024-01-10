@@ -1,133 +1,144 @@
 .products {
-    padding: 3%;
-    text-align: center;
-  }
-  
-  .products h2 {
-    font-weight: 620;
-    color: rgba(38, 50, 56, 1);
-  }
-  
-  .products span {
-    color: rgba(0, 156, 130, 1);
-  }
-  
+  padding: 3%;
+  text-align: center;
+}
+
+.products h2 {
+  font-weight: 350;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.813rem;
+  font-weight: 600;
+  line-height: 1.8;
+  color: black;
+}
+
+.products span {
+  color: rgba(0, 156, 130, 1);
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 1rem;
+  padding-top: 3%;
+  padding: 0 10%;
+}
+
+.product-card {
+  min-height: 25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15%;
+}
+
+.product-card h6 {
+  font-weight: 350;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.8;
+  padding: 3% 10%;
+  margin-top: 15%;
+  height: 8rem;
+}
+
+#product-img {
+  height: 13rem;
+  width: 100%;
+}
+
+.product-button {
+  background-color: #282626;
+  border: 1px solid #282626;
+  padding: 3%;
+  min-width: 10rem;
+  color: white;
+}
+
+.product-button:hover {
+  background-color: white;
+  border: 1px solid #282626;
+  color: #282626;
+}
+
+.product-button:hover .product-btn-link {
+  color: #282626;
+}
+
+.product-btn-link {
+  text-decoration: none;
+  color: white;
+}
+
+.diesel,
+.electrical,
+.jockey {
+  position: relative;
+  top: 2rem;
+}
+
+.multi {
+  position: relative;
+  top: 3.5rem;
+}
+
+@media screen and (max-width: 768px) {
   .products-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 2rem;
-    row-gap: 1rem;
-    padding-top: 3%;
-    padding: 0 10%;
+    grid-template-columns: auto;
   }
-
-  
   .product-card {
-    min-height: 25rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15%;
+    margin-top: -5%;
+  }
+}
+
+/* Control Panels for Plumbing Pumps Css */
+
+.CPP-Products {
+  padding-left: 10%;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-left: -6%;
+}
+
+.CPP-products-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 7rem;
+  row-gap: 1.5rem;
+  padding-top: 3%;
+  padding: 0 10%;
+}
+
+.CPP-product-img {
+  height: 11rem;
+}
+
+.CPP-product-card h6 {
+  font-size: 1rem;
+  font-weight: 650;
+  color: rgba(38, 50, 56, 1);
+  padding: 3% 10%;
+  margin-top: 3%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .CPP-Products {
+    padding-left: 0%;
   }
 
-  .product-card h6{
-    font-size: 1rem;
-    font-weight: 600;
-    color: rgba(38, 50, 56, 1);
-    padding: 3% 10%;
-    margin-top: 15%;
+  .CPP-products-list {
+    grid-template-columns: auto;
   }
 
-  #product-img{
-    height: 13rem;
-    width: 100%;
+  .CPP-product-img {
+    height: 8rem;
   }
-  
-  .product-button {
-    background-color: #282626;
-    border: 1px solid #282626;
-    padding: 3%;
-    min-width: 10rem;
-    color: white;
-  }
-
-  .product-button:hover{
-    background-color: white;
-    border: 1px solid #282626;
-    color: #282626;
-  }
-
-  .product-button:hover .product-btn-link{
-    color: #282626;
-  }
-
-  .product-btn-link {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .diesel,
-  .electrical,
-  .jockey {
-    position: relative;
-    top: 2rem;
-  }
-  
-  .multi {
-    position: relative;
-    top: 3.5rem;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .products-list {
-      grid-template-columns: auto;
-    }
-    .product-card{
-      margin-top: -5%;
-    }
-      
-  }
-
-
-
-  /* Control Panels for Plumbing Pumps Css */
-
-  .CPP-Products{
-    padding-left: 10%;
-    text-align: center;
-    margin-bottom: 5%;
-  }
-
-  .CPP-products-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 5rem;
-    row-gap: 1.5rem;
-    padding-top: 3%;
-    padding: 0 10%;
-  }
-
-  .CPP-product-img{ 
-    height: 10rem;
-  }
-
-  .CPP-product-card h6{
-    font-size: 1.2rem;
-    font-weight: 650;
-    color: rgba(38, 50, 56, 1);
-    padding: 3% 10%;
-    margin-top: 3%;
-  }
-
-  @media screen and (max-width: 768px) {
-    .CPP-Products {
-      padding-left: 0%;
-    }
-
-    .CPP-products-list {
-      grid-template-columns: auto;
-    }
-      
-  }
+}
