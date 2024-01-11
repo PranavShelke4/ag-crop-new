@@ -54,14 +54,22 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar{
+    background-color: white !important;
+    padding: 1% 0% !important;
+    z-index: 1000 !important;
+  }
+  .nav-links{
+    color: black !important;
+  }
+  #basic-nav-dropdown{
+    color: black;
+  }
   .nav-right-side {
     left: 0%;
   }
   .pumping-nav-dropdown {
     margin-left: 0%;
-  }
-  .navbar {
-    padding: 1% 0% !important;
   }
   .navbar-nav {
     padding: 5% 0% !important;
