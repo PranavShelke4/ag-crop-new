@@ -142,10 +142,10 @@
   .ASSheader,
   .ESheader,
   .FFSheader {
-    height: 50vh;
+    height: 80vh;
   }
   .header-title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .header-button {
     font-size: 1rem;

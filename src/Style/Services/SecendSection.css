@@ -42,13 +42,15 @@
   }
   .SecendSection h1 {
     font-size: 2rem;
-    margin-top: 5%;
-    margin-bottom: 1%;
   }
   .sub-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+  .blue-sub-title {
+    font-size: 1.2rem;
   }
   .ServicesInfo-box2 li {
     font-size: 1rem;
   }
+  
 }
