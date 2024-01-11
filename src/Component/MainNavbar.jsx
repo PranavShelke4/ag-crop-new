@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,8 +8,23 @@ import "../Style/Navbar.css";
 import logo from "../Assets/logo.webp";
 
 function MainNavbar() {
+  const [showNav, setShowNav] = useState(true);
+  const [scrollPos, setScrollPos] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const visible = scrollPos > currentScrollPos || currentScrollPos < 300;
+      setShowNav(visible);
+      setScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [scrollPos]);
+
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" style={{ display: showNav ? "block" : "none" }}>
       <Container>
         <Navbar.Brand to={"/"}>
           {" "}
