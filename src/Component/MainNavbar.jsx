@@ -9,7 +9,7 @@ import logo from "../Assets/logo.webp";
 
 function MainNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand to={"/"}>
           {" "}
