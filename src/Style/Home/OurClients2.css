@@ -1,20 +1,14 @@
 .OurClients {
-  padding: 5% 7%; /* Consistent padding for all devices */
-  display: flex;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
-  justify-content: space-between; /* Distribute clients evenly */
-  gap: 2rem; /* Adjust gap as needed for different phone sizes */
+  padding: 5% 7%;
 }
 
 .OurClientsBox1 {
-  width: calc(50% - 1rem); /* Account for gap spacing */
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
   gap: 1rem;
-  border-left: 2px solid rgb(154, 148, 148);
-  padding: 3% 0%;
 }
 
 .OurClientsBox2 {
@@ -22,7 +16,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   padding: 20px;
-  gap: 1rem; /* Grid gap for phone responsiveness */
 }
 
 .OurClientsBox2 img {
@@ -30,7 +23,12 @@
   height: 100%;
   object-fit: contain;
   border: 1px solid #ddd;
-  padding: 20px; /* Reduce padding for tighter phone layouts */
+  padding: 40px;
+}
+
+.OurClientsBox1SubBox {
+  border-left: 2px solid rgb(154, 148, 148);
+  padding: 3% 0%;
 }
 
 .OurClientsBox1Title {
@@ -39,29 +37,34 @@
 }
 
 .OurClientsBox1Title h1 {
+  width: 50rem;
   font-weight: 350;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
-  /* Use `rem` units for responsiveness: */
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: 400;
   line-height: 1.8;
 }
 
-/* Media queries for responsiveness: */
-
 @media screen and (max-width: 768px) {
+  .OurClients {
+    flex-direction: column;
+  }
+
   .OurClientsBox1,
   .OurClientsBox2 {
     width: 100%;
   }
 
-  .OurClientsBox1Title h1 {
-    font-size: 1.5rem; /* Adjust as needed for smaller screens */
+  .OurClientsBox2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    padding: 40px;
   }
-}
 
-@media screen and (max-width: 480px) {
   .OurClientsBox1Title h1 {
-    font-size: 1.2rem; /* Further adjust for even smaller screens */
+    width: 100%;
   }
 }
